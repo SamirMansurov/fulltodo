@@ -1,0 +1,125 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.todo{
+    font-family: Gilroy;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 59.42px;
+    text-align: center;
+    margin: 25px auto 22px;
+}
+.new_prod{
+    width: 321px;
+    height: 42px;
+    border: 2px solid rgba(0, 127, 255, 1);
+    border-radius: 5px;
+    font-family: Gilroy;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 19.6px;
+    text-align: center;
+    color: rgba(0, 127, 255, 1);
+
+}
+.save_prod{
+    width: 155px;
+    height: 42px;
+    border: none; 
+    border-radius: 5px;
+    font-family: Gilroy;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 21.83px;
+    text-align: center;
+    background: rgba(0, 113, 227, 1);
+    color: #fff;
+    margin-bottom: 42px;
+}
+.main_box{
+    margin: 30px auto;
+    width: 900px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+.product{
+    width: 282px;
+    height: 90px;
+    border-radius: 10px;
+    border: 1px solid rgba(0, 127, 255, 1);
+    background: rgba(240, 240, 240, 1);
+    padding: 20px;
+    position: relative;
+    margin-bottom: 25px;
+}
+.name_prod{
+    font-family: Gilroy;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22.05px;
+    text-align: left;
+    margin-bottom: 10px;
+   
+}
+.time_prod{
+    font-family: Gilroy;
+    font-size: 14px;
+    font-style: italic;
+    font-weight: 500;
+    line-height: 16.98px;
+    text-align: left;
+}
+.delete_btn{
+    border: none;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+.done {
+    text-decoration: line-through 2px red;
+}
+
+.edit_btn {
+    position: relative;
+    top: -50px;
+    left: 180px;
+    width: 30px;
+}
+
+
+.modal {
+    position: relative;
+    top: -260px;
+    left: 1200px;
+
+    input {
+        width: 321px;
+        height: 42px;
+        border: 2px solid rgba(0, 127, 255, 1);
+        border-radius: 5px;
+        font-family: Gilroy;
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 19.6px;
+        text-align: center;
+        color: rgba(0, 127, 255, 1);
+    }
+
+    button {
+        width: 155px;
+        height: 42px;
+        border: none;
+        border-radius: 5px;
+        font-family: Gilroy;
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 21.83px;
+        text-align: center;
+        background: rgba(0, 113, 227, 1);
+        color: #fff;
+        margin-bottom: 42px;
+    }
+}
